@@ -1,0 +1,18 @@
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /vims_data
+#     /yolov5
+
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/education/Repositories/vims_data/images/train1/  # 59 images
+val: /home/education/Repositories/vims_data/images/train1/  # 59 images
+
+# number of classes
+nc: 13
+
+# class names
+names: ['220050', '220052', '220079', '220041', '220036', '220064', '220081', '220080',
+       '220040', '220078', '220030', '120040', '220035']
