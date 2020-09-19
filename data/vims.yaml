@@ -7,8 +7,8 @@
 
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: /home/education/Repositories/vims_data/images/train1/  # 59 images
-val: /home/education/Repositories/vims_data/images/train1/  # 59 images
+train: ../vims_data/images/train1/  # 59 images
+val: ../vims_data/images/train1/  # 59 images
 
 # number of classes
 nc: 13
